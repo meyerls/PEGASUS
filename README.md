@@ -5,7 +5,7 @@ Lukas Meyer*, Floris Erich, Yusuke Yoshiyasu, Marc Stamminger, Noriaki Ando, Yuk
 of Advanced Industrial Science and Technology.</span>
 <br>
 
-| [Webpage](https://meyerls.github.io/pegasus_webs) | [Full Paper](https://arxiv.org/abs/2401.02281) |  [Ramen Dataset (~50 GB)](https://zenodo.org/records/12624886)  |  [PEGASET (~50 GB)](https://zenodo.org/records/12625040)  |<br>
+| [Webpage](https://meyerls.github.io/pegasus_web) | [Full Paper](https://arxiv.org/abs/2401.02281) |  [Ramen Dataset (~50 GB)](https://zenodo.org/records/12624886)  |  [PEGASET (~50 GB)](https://zenodo.org/records/12625040)  |<br>
 ![Teaser image](assets/title.png)
 
 *We introduce Physical Enhanced Gaussian Splatting Simulation System (PEGASUS) for 6DOF object pose dataset
