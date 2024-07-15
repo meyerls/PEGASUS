@@ -1,11 +1,11 @@
-# <img align="left" style="padding: 5px" src="assets/pegasus_eye.png"  height="120px"/> <em>PEGASUS</em>: Physically Enhanced Gaussian Splatting Simulation System for 6DOF Object Pose Dataset Generation
+# <img align="left" style="padding: 5px" src="assets/pegasus_eye.png"  height="120px"/> <em>PEGASUS</em>: Physically Enhanced Gaussian Splatting Simulation System for 6DoF Object Pose Dataset Generation
 
 Lukas Meyer*, Floris Erich, Yusuke Yoshiyasu, Marc Stamminger, Noriaki Ando, Yukiyasu Domae<br>
 <span style="font-size:0.5em;">*This work was conducted during an internship at the National Institute
 of Advanced Industrial Science and Technology.</span>
 <br>
 
-| [Webpage](https://meyerls.github.io/pegasus_webs) | [Full Paper](https://arxiv.org/abs/2401.02281) |  [Ramen Dataset (50 GB)](https://zenodo.org/records/12624886)  |  [PEGASET (50 GB)](https://zenodo.org/records/12625040)  |<br>
+| [Webpage](https://meyerls.github.io/pegasus_webs) | [Full Paper](https://arxiv.org/abs/2401.02281) |  [Ramen Dataset (~50 GB)](https://zenodo.org/records/12624886)  |  [PEGASET (~50 GB)](https://zenodo.org/records/12625040)  |<br>
 ![Teaser image](assets/title.png)
 
 *We introduce Physical Enhanced Gaussian Splatting Simulation System (PEGASUS) for 6DOF object pose dataset

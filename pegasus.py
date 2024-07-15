@@ -397,12 +397,11 @@ class PEGASUS(object):
 
 
 if __name__ == '__main__':
-    # DATASET_PATH = '/media/se86kimy/PortableSSD/data/pegasus'
-    DATASET_PATH = '/home/se86kimy/Documents/data/PEGASUS'
+    DATASET_PATH = '/home/se86kimy/Documents/data/RamenDataset'
     PEGASET_PATH = '/home/se86kimy/Documents/data/PEGASET'
-    ENV_DATASET_PATH = '/home/se86kimy/Documents/data/PEGASUS'
-    # URDF_ASSET_FOLDER = '/media/se86kimy/PortableSSD/data/pegasus/urdf'
-    URDF_ASSET_FOLDER = ['/home/se86kimy/Documents/data/PEGASUS/urdf',
+
+    ENV_DATASET_PATH = '/home/se86kimy/Documents/data/RamenDataset'
+    URDF_ASSET_FOLDER = ['/home/se86kimy/Documents/data/RamenDataset/urdf',
                          '/home/se86kimy/Documents/data/PEGASET/urdf']
 
     os.environ['PEGASUS_PATH'] = os.path.join(os.path.abspath(os.path.curdir), "dataset")
@@ -411,16 +410,14 @@ if __name__ == '__main__':
 
     env1 = MannholeCover(dataset_path=ENV_DATASET_PATH)
     env2 = Cobblestone(dataset_path=ENV_DATASET_PATH)
-    env3 = PlainTableSetup(dataset_path=ENV_DATASET_PATH)
-    env4 = Asphalt(dataset_path=ENV_DATASET_PATH)
-    env5 = Tiles(dataset_path=ENV_DATASET_PATH)
-    env6 = Grass(dataset_path=ENV_DATASET_PATH)
-    # env7 = Asphalt2(dataset_path=DATASET_PATH)
-    # env8 = Tiles2(dataset_path=DATASET_PATH)
-    # env9 = Asphalt2(dataset_path=DATASET_PATH)
-    # env10 = Wood(dataset_path=DATASET_PATH)
-    # env11 = Garden(dataset_path=DATASET_PATH)
-    #
+    env3 = Asphalt(dataset_path=ENV_DATASET_PATH)
+    env4 = Tiles(dataset_path=ENV_DATASET_PATH)
+    env5 = Grass(dataset_path=ENV_DATASET_PATH)
+    env6 = Asphalt2(dataset_path=DATASET_PATH)
+    env7 = Tiles2(dataset_path=DATASET_PATH)
+    env8 = Asphalt2(dataset_path=DATASET_PATH)
+    env9 = Wood(dataset_path=DATASET_PATH)
+
     obj1 = CrackerBox(dataset_path=PEGASET_PATH)
     obj2 = ChocoJello(dataset_path=PEGASET_PATH)
     obj3 = RedBowl(dataset_path=PEGASET_PATH)
@@ -475,19 +472,11 @@ if __name__ == '__main__':
     obj129 = CupNoodle29(dataset_path=DATASET_PATH)
     obj130 = CupNoodle30(dataset_path=DATASET_PATH)
 
-    # obj_list = [
-    #    obj101, obj102, obj103, obj104, obj105, obj106, obj107, obj108, obj109, obj110
-    # , obj111, obj112, obj113, obj114,
-    # obj115, obj116, obj117, obj118, obj119, obj120, obj121, obj122, obj123, obj124, obj125, obj126, obj127, obj128,
-    # obj129, obj130
-    # , obj2, obj4, obj5, obj6, obj8, obj11, obj13, obj12, obj101, obj102, obj103, obj104, obj105, obj106, obj107, obj108, obj110, obj118, obj120
-    # ]
 
-    #obj_list = [obj1, obj2, obj4, obj5, obj6, obj7, obj8, obj9, obj11, obj12, obj13, obj14, obj15, obj17]
     obj_list = [obj17, obj18, obj19, obj20]
 
     env_list = [
-        env1, env2, env3, env4, env5, env6  # , env11
+        env1, env2, env3, env4, env5, env6, env7, env8, env9
     ]
 
     dataset_path_folder = './dataset/'
