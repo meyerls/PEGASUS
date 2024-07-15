@@ -1,0 +1,7 @@
+img/img.png filter=lfs diff=lfs merge=lfs -text
+img/img_1.png filter=lfs diff=lfs merge=lfs -text
+img/img_2.png filter=lfs diff=lfs merge=lfs -text
+img/hilpoltstein_osm.png filter=lfs diff=lfs merge=lfs -text
+img/map.png filter=lfs diff=lfs merge=lfs -text
+img/result_map.png filter=lfs diff=lfs merge=lfs -text
+img/ filter=lfs diff=lfs merge=lfs -text

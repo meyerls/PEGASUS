@@ -1,0 +1,41 @@
+name: Python package
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [ "3.7", "3.8", "3.9"]
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v3
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: 'Install dependencies'
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .
+      - name: 'Install ExifTools'
+        run: |
+          wget https://exiftool.org/Image-ExifTool-12.51.tar.gz
+          gzip -dc Image-ExifTool-12.51.tar.gz | tar -xf -
+          cd Image-ExifTool-12.51
+          perl Makefile.PL
+          make test
+          sudo make install
+      - name: 'Test Aruco Scale Factor Estimation'
+        run: |
+          exiftool -ver
+          pip install -e . 
+          python3 aruco_estimator/test.py --test_data
+      #- name: 'Upload Artifact'
+      #  uses: actions/upload-artifact@v3
+      #  with:
+      #    name: skeleton-artifact
+      #    path: ${{ github.workspace }}/data/door/**/*
+      #    retention-days: 5

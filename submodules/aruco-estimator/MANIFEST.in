@@ -1,0 +1,2 @@
+recursive-include ./aruco_estimator *
+exclude ./data *

@@ -1,0 +1,6 @@
+[submodule "submodules/gaussian-splatting-pegasus"]
+	path = submodules/gaussian-splatting-pegasus
+	url = https://github.com/meyerls/gaussian-splatting-pegasus.git
+[submodule "submodules/XMem"]
+	path = submodules/XMem
+	url = https://github.com/hkchengrex/XMem.git

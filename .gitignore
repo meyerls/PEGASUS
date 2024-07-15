@@ -1,0 +1,76 @@
+./output/
+./dataset/
+SIBR_viewer
+.idea/
+*.mp4
+./output/
+dataset/
+src/**/*.png
+vocab_tree_flickr100K_words256K.bin
+workspace/
+video
+saves
+
+# Byte-compiled / optimized Python files
+*/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# C extensions
+*.so
+
+# Distribution / packaging
+dist/
+build/
+eggs/
+*.egg-info/
+*.egg
+*.deb
+*.rpm
+*.tar.gz
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+
+# Translations
+*.mo
+*.pot
+
+# Django specific
+*.log
+local_settings.py
+
+# Flask specific
+instance/
+webapp.sqlite
+
+# IPython Notebook
+.ipynb_checkpoints
+
+# Jupyter
+.notebook_cache/
+
+# PyCharm files
+#.idea/
+
+# Visual Studio Code files
+.vscode/
+
+# Sublime Text files
+.sublime-workspace
+.sublime-project
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
