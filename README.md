@@ -204,7 +204,7 @@ We provide two different datasets. The IDs for the *Ramen* dataset are between 1
 
 #### *Ramen* Dataset
 
-The [*Ramen* Dataset](https://google.de) contains out of 30 cup noodle objects and 10
+The [*Ramen* Dataset](https://google.de) contains out of 30 cup noodle objects and 9
 environments.
 
 <p align="center">
@@ -229,7 +229,7 @@ environments.
 
 #### PEGASET
 
-The [PEGASET](https://zenodo.org/records/12625040) contains out of the well known 21 YCB-V and 10 environments. 
+The [PEGASET](https://zenodo.org/records/12625040) contains out of the well known 21 YCB-V and 9 environments. 
 
 <p align="center">
   <img style="padding: 5px" src="assets/appendix_ycb.png" alt="drawing" width="500px"/> 
